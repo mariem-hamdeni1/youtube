@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link  href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%22" rel="nofollow">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="<a href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%22" rel="nofollow"><u>https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"</u></a> rel="stylesheet"> -->
+</head>
+<body>
+    <header>
+        <div class="left">
+            <i class="material-icons">menu</i>
+             <img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAwFBMVEX/////AAAoKCgAAAAeHh4bGxshISEODg7Gxsbz8/MkJCQTExNAQEBycnKrq6uGhobq6upeXl7/Z2dXV1ezs7MWFhbMzMygoKDg4OB/f3/5+fnZ2dk7OzsPDw9ra2vk5OT/7e13d3f/pqbT09OPj4//U1P/w8O8vLxjY2P/hYX/QECwsLD/z88zMzP/4uL/YGD/ICD/oKD/sbH/cHD/S0v/19f/8vL/Njb/u7v/mZn/fHz/FRX/kJBOTk7/LCz/Y2PTqcjRAAAG2UlEQVR4nO2be1viPBPGoekB2kVwoRyliKDoelhX3dXV5fX7f6unmbRpSyuUTah7Xe/9+6staUhuksnMJNRqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/y/8urt5Oft99fr1+9O35/u3eo63t/vnp/P3x6s/Px4ufp5+dnsPzfjsPK/BLu4fXypu5pBoVvJdD/sLEnFTSftiGHFdxVe9/rUk9fpZUs1lKyRYxbcB3ZbqwIDKZgiKyjlGyLSn2t8S/FCQpF6/kPWsfdM0p63obsbCO5P1y7Qg8MxNWFG5yjQ5VZKkXpcVDXzeZDu66035XWHXcrRMYxOnqFxlmlwpaiJnz4SRCh1x17a4QJelmvDPaaIoSf1J1uRRZxri5sQNb7yjUk0IHCskEsbm19anzh3VqZOaPHPeK39J12MxaGal2jAYtUNGJIodtOmmqFxVmlwoa3IXV7XiJsTu0nWft9819mmJkNHZYpWr0uRMWRO58jRZYlbJ4FrtfVoiXo/nXhFVaaJqYtMuyhduQ9iQX17aO/qX59/R5F1ZkytZ19KXbRZDZrxPS/4dTb592Nenjz/K8FXW1ee9srh5nLHEtIRM+o1FZ1dL9tGk2Vj1s4IvVte9RjmTvpOCAFj2tVwclCzGNDrck1rksfkDetjoMuY4jFnLqBeddTdkTVHAiF92Lzc1ESXo/QFdf0lrMp4zZ+qwpfzeTouxqRc+Msot/jvY/vuXsTb/SyojK8JnzMiSliVgduSH+c5E9IDZIYyaf2yFl+bJpiZUYkomuu1R6ZQmTcui+li8YPeZFX2Fy44Prknt9PtuUZLKjrjbxhaRx2bxR61p4py6rCk0MaQ/d8wFc7/kNDHkskUOsZFo4vduY5GZ0JgmqnSAk9Hzt/zaoUmtdnNfXhNqXThlxtKwNKi9riN+STNQ18S4tf1oXFhioKxJI4eJj5lyfmWLGytt5y6zkqqOt85s1Ra8T84qbq97u+iMRNc66pq4bDBZikufPx1SYX8xXthJvSrcldBkl1lJVcd7HnqvYg414+6Tb2q4sdlV1ITPTWG5hMTkHlLF154ci4fXpHa6LTeZWhQbDrWfhy72upbJGIhA+VhZE5MyNBRHCLG75B5yoSLDoqrJz3KabDUrv5JSZEjYkDu09MtRh0SX6UekvqlpIt4TE2a6istStDlOBRdVaLIlMkppQvbDp+7TokBdFlkUGkKpCaWmSVPW0UylbTIZnCo0+XCNSmvCJ7e75qaDskK3rhztfaHJUI8mogQfi2LEiNVmnwSFFk1KjRNKtiVCTI0NTbgF0KeJFToji1RoJS4nVWlSzp7Ea0MmFMxo0tCqSVuOP42aaF53ktxqaoIfUJOR1CR5WJEmpf2TePUVkeAhNXGymtjHIZHToqqJZj827nCclq1ME4MHiiIOUtZEb7zDoaXGiDa7qtMkQVkTDXHxW7bCZdKHCu2JwRIWh9WkTP7kOVuh2A6sWpP90pw7UM+znX+iJu2sf6IJ9Xzs4xZNnJwmmny2sfTZJik/VhM68/Z5TYRLGySacAOoQ5OO9O1nKU0WjcWwo66Ozv2dvCYUx1OCoLbSGgOK0eFdy2CYXMSAbKzyNNK4D1igCWXXhP92pDVXkMqfiLV/KGtT10TjfnGBJokQQh7a8mlKWxANpLwmwg4F8r10jvoo9ZSPDoomxGtpN0ABjecKCjRJpX682ABEo4CEWCWXGU2E48fTrZPI/ZCauLdy+hkef0rRhDmvRUuQu1bWROP5kwJNhJENx3tjnSRQox5breuAmW6hJgFFkmb3esRsM6uJ4TrzkbgiIeLzCO3GkZnIroa2c0qFmvSi8GdKklgifyxMhGF6pjXqukWaiDln2J5lr+lcSkoTyzDj2FsEEEuyLZYj3tGxKms7z1aoSa3rGxJ7KszfMN6kcj1KZ+c1acptLNahChNNnEn8mRnPkhMr+Q62qmlA7dxj7tzwgGXPXl2y+FCWY8SZ0iUT9sKfhcVN04r2RulFsYfeEyWsMHhZsfgcJC/gdcMHpIFvxSNi3GUWFTcdb6/jHR+jMnt+52pbzUchreRBf26R27BObUb1eMw25ZvqC342lvbzxi3+4jyKavsn/J1R2O0ZL0Fpbl7zPBwHnZHDP0utuf3RbfjEDfSdw3j5a0kudldO3Z0NN5PpndyTTZrbSjRVk/O7efj6cSz4Id8fDt6uz+bu58XDjz+vj+/nT4X/y6i/3T9/O39/fP3z++zl5k5nIAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD24T9B041MK5W6JwAAAABJRU5ErkJggg==" alt="youtube logo">
+        </div>
+        <div class="center">
+            <form action="">
+                <input type="text" placeholder="search">
+                <button><i class="material-icons">search</i></button>
+                <i class="material-icons mic">mic</i>
+            </form>
+        </div>
+        <div class="right">
+            <a href=""><i class="material-icons">video_call</i></a>
+            <a href=""><i class="material-icons">apps</i></a>
+            <a href=""><i class="material-icons">notifications</i></a>
+            <a href=""><i class="material-icons">account_circle</i></a>
+        </div>
+    </header>
+    <div class="content">
+        <aside>
+            <nav>
+                <a class="active nav-link" href="">
+                    <i class="material-icons ">home</i>
+                    <span>home</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">explore</i>
+                    <span>explore</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">history</i>
+                    <span>history</span>
+                </a>
+                <hr>
+                <a class=" nav-link" href="">
+                    <i class="material-icons">subscriptions</i>
+                    <span>subscriptions</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons">movie</i>
+                    <span>movies</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">add</i>
+                    <span>chaine</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">thumb_up</i>
+                    <span>likes</span>
+                </a>
+                <hr>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">video_library</i>
+                    <span>Videos</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">music_note</i>
+                    <span>Music</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">history_toggle_off</i>
+                    <span>watch later</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">sports_esports</i>
+                    <span>video game</span>
+                </a>
+                <hr>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">live_tv</i>
+                    <span>tv stations</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">military_tech</i>
+                    <span>sports</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">settings</i>
+                    <span>settings</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">help</i>
+                    <span>help</span>
+                </a>
+                <hr>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">chat</i>
+                    <span>send comment</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">favorite</i>
+                    <span>favorite</span>
+                </a>
+                <a class=" nav-link" href="">
+                    <i class="material-icons ">notifications_active</i>
+                    <span>notifications</span>
+                </a>
+                <p>PrésentationPresseDroits d'auteurNous contacterCréateursPublicitéDéveloppeurs
+                    Conditions d'utilisationConfidentialitéRègles et sécuritéPremiers pas sur YouTubeTester de nouvelles fonctionnalités
+                    © 2022 Google LLC</p>
+            </nav>
+        </aside>      
+        <div class="main_content">
+            <div class="grid">
+                <div class="card">
+                    <a href="">
+                    <card class="card_header">
+                        <img src="https://media.istockphoto.com/id/1414997449/photo/romantic-painted-macarons-floral-motif.jpg?b=1&s=170667a&w=0&k=20&c=FNU2P5x8J4f8zUuyMI0Rdf17RY_fVelTov1D_AHiii0=" alt="img">
+                    </card>
+                    <card class="card_body">
+                      <div style="display:flex ;align-items: center;margin-bottom:15px ;">
+                       <img src="https://media.istockphoto.com/photos/soft-knitted-bear-on-a-pink-matte-background-bear-for-a-gift-a-toy-picture-id1356620835?b=1&k=20&m=1356620835&s=170667a&w=0&h=f086xB4PhnvWDChQiQFB9gieY5eVq-2cfdriZ-P9Xm8=" alt="img">
+                       <h3>bake macaron</h3>
+                       </div>
+                       <p>cook with me</p>
+                       <p>190k vue . il ya un 1 mois</p>
+                    </card>
+                    </a>
+                  </div> 
+                <div class="card">
+                <a href="">
+                <card class="card_header">
+                    <img src="https://media.istockphoto.com/id/844023604/photo/woman-touching-blossoming-lavender-in-the-lavender-field-with-her-hands-first-person-view.jpg?b=1&s=170667a&w=0&k=20&c=oFAfC7FN5m57XkVBPqIY9Z77Yv3sdiwFB0r-L_hQ3M8=" alt="img">
+                </card>
+                <card class="card_body">
+                  <div style="display:flex ;align-items: center;margin-bottom:15px ;">
+                   <img src="https://cdn.pixabay.com/photo/2012/06/19/10/32/owl-50267__340.jpg" alt="img">
+                   <h3>the most beauriful place in london.</h3>
+                   </div>
+                   <p>place</p>
+                   <p>100k vue . il ya un 2 mois</p>
+            </card>
+                </a>
+              </div> 
+            
+              <div class="card">
+                <a href="">
+                <card class="card_header">
+                    <img src="https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830__340.jpg" alt="">
+                </card>
+                <card class="card_body">
+                  <div style="display:flex ;align-items: center;margin-bottom:15px ;">
+                   <img src="https://media.istockphoto.com/id/1242741425/photo/work-from-home-concept.jpg?b=1&s=170667a&w=0&k=20&c=7SWmE7s_NHTn8IYM-I3xMC2CI4JEteC7r_u-jWndQhw=" alt="img">
+                   <h3>Relax music</h3>
+                   </div>
+                   <p>fantastique</p>
+                   <p>153k vue . il ya un 6 mois</p>
+            </card>
+                </a>
+              </div> 
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <a href="">
+                    <card class="card_header">
+                        <img src="https://cdn.pixabay.com/photo/2019/01/21/15/06/blueberries-3946230__340.jpg" alt="">
+                    </card>
+                    <card class="card_body">
+                      <div style="display:flex ;align-items: center;margin-bottom:15px ;">
+                       <img src="https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601__340.jpg" alt="img">
+                       <h3>cake</h3>
+                       </div>
+                       <p>the chef</p>
+                       <p>160k vue . il ya un 9 mois</p>
+                    </card>
+                    </a>
+                  </div> 
+                <div class="card">
+                <a href="">
+                <card class="card_header">
+                    <img src="https://cdn.pixabay.com/photo/2017/02/08/02/56/booties-2047596__340.jpg" alt="">
+                </card>
+                <card class="card_body">
+                  <div style="display:flex ;align-items: center;margin-bottom:15px ;">
+                   <img src="https://media.istockphoto.com/photos/childrens-sweet-feet-wrapped-in-a-blanket-picture-id1344253633?b=1&k=20&m=1344253633&s=170667a&w=0&h=YGcC8JqSZ_6sRcAGiCbX4igAJs1mYQaf1YArowTd5VA=" alt="img">
+                   <h3>fashion baby</h3>
+                   </div>
+                   <p>fashion code</p>
+                   <p>1503k vue . il ya un 2ans</p>
+            </card>
+                </a>
+              </div> 
+            
+              <div class="card">
+                <a href="">
+                <card class="card_header">
+                    <img src="https://media.istockphoto.com/id/1354397311/photo/top-view-of-laptop-with-text-python.jpg?b=1&s=170667a&w=0&k=20&c=8Umw4ppPIo6F9hySZBBTrhff6MRRLsqCbYw9juYZHrQ=" alt="img">
+                </card>
+                <card class="card_body">
+                  <div style="display:flex ;align-items: center;margin-bottom:15px ;">
+                   <img src="https://media.istockphoto.com/id/960937636/photo/woman-hands-coding-html-and-programming-on-screen-laptop-web-developer.jpg?b=1&s=170667a&w=0&k=20&c=ZgK9RPRSS1pRqH0eZPQnVqCtDuZgeHunMkINlZTQDu0=" alt="img">
+                   <h3>python course</h3>
+                   </div>
+                   <p>coding</p>
+                   <p>1500k vue . il ya un 3ans</p>
+            </card>
+                </a>
+              </div> 
+            </div>
+
+              <div class="grid">
+                <div class="card">
+                  <a href="">
+                  <card class="card_header">
+                      <img src="https://cdn.pixabay.com/photo/2022/02/12/21/22/toast-7009956__340.jpg" alt="">
+                  </card>
+                  <card class="card_body">
+                    <div style="display:flex ;align-items: center;margin-bottom:15px ;">
+                     <img src="https://media.istockphoto.com/photos/young-woman-smiling-and-gesturing-to-copy-space-picture-id1360028830?b=1&k=20&m=1360028830&s=170667a&w=0&h=bChWzjgixVmErtrs9EJ4RcuogHK2vV4SZgsXIRrSQFc=" alt="img">
+                     <h3>6 healthy sandwich</h3>
+                     </div>
+                     <p>life style</p>
+                     <p>300k vue . il ya un mois</p>
+                </card>
+                  </a>
+                </div> 
+                <div class="card">
+                    <a href="">
+                    <card class="card_header">
+                        <img src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720__340.jpg" alt="img">
+                    </card>
+                    <card class="card_body">
+                      <div style="display:flex ;align-items: center;margin-bottom:15px ;">
+                       <img src="https://cdn.pixabay.com/photo/2017/12/11/15/34/lion-3012515__340.jpg" alt="img">
+                       <h3>funny cats</h3>
+                       </div>
+                       <p>puppy</p>
+                       <p>150k vue . il ya un ans</p>
+                    </card>
+                    </a>
+                  </div> 
+    
+                  <div class="card">
+                    <a href="">
+                    <card class="card_header">
+                        <img src="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819__340.jpg" alt="">
+                    </card>
+                    <card class="card_body">
+                      <div style="display:flex ;align-items: center;margin-bottom:15px ;">
+                       <img src="https://cdn.pixabay.com/photo/2015/04/19/08/33/flower-729512__340.jpg" alt="">
+                       <h3>roses types</h3>
+                       </div>
+                       <p>beaty</p>
+                       <p>1900k vue . il ya un 4 ans</p>
+                    </card>
+                    </a>
+                  </div> 
+                </div>
+            </div>
+    </div>
+</body>
+</html>
